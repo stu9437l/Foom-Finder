@@ -6,6 +6,7 @@ import Banner from "./Banner"
 const Home=()=>{
     return (
         <>
+        <div className="home_page" style={{marginBottom:"45px"}}>
         <Banner />
         <div className="bg-light">
         <div className="container">
@@ -27,7 +28,8 @@ const Home=()=>{
         <Card />
         <Card />
         <Card />  
-            </div>
+        </div>
+        </div>
         </div>
         </div>
         

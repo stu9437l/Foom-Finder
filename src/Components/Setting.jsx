@@ -5,7 +5,7 @@ import ChangePassword from "./ChangePassword";
 const Setting=()=>{
     return (
         <>
-        <div className="container" style={{marginTop:"120px"}}>
+        <div className="container margin_top_setting" style={{marginBottom:"45px"}}>
             <div className="row">
                 <div className="col-lg-3">
                     <div className="shadow-lg p-3">

@@ -20,7 +20,7 @@ function Banner() {
        <>
        <div className="banner_img text-center text-white container-fluid" style={{padding:"2rem 0"}}>
            <div className="">
-           <h3 className="fw-bolder shadow-lg" style={{marginTop:"6rem"}}>{greeting}</h3>
+           <h3 className="fw-bolder shadow-lg" style={{marginTop:"3rem"}}>{greeting}</h3>
            <h2 className="fw-bolder shadow-lg">Welcome to Room Finder</h2>
            
            </div>

@@ -3,9 +3,9 @@ import React,{useState} from 'react';
 function ScrollTop() {
     const [showScroll, setShowScroll] = useState(false)
          const checkScrollTop = () => {    
-         if (!showScroll && window.pageYOffset > 100){
+         if (!showScroll && window.pageYOffset > 150){
                setShowScroll(true)    
-           } else if (showScroll && window.pageYOffset <= 100){
+           } else if (showScroll && window.pageYOffset <= 150){
              setShowScroll(false)    
              }  
           };

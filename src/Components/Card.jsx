@@ -133,7 +133,7 @@ const Card = () => {
                             <div className="col-md-4 px-0 tab_img-size order-last order-lg-first mx-auto">
                               <div
                                 className="nav row nav-pills margin_of_tab_image_btn"
-                                id="v-pills-tab"
+                                id="tab_of_rooms_content"
                                 role="tablist"
                                 aria-orientation="vertical"
                               >
@@ -153,60 +153,6 @@ const Card = () => {
                                       alt=""
                                       className="img-fluid"
                                     />
-                                  </div>
-                                </button>
-                                <button
-                                  className="nav-link col-3 col-lg-6"
-                                  id="pic2-tab"
-                                  data-bs-toggle="pill"
-                                  data-bs-target="#pic2"
-                                  type="button"
-                                  role="tab"
-                                  aria-controls="pic2"
-                                  aria-selected="false"
-                                >
-                                    <div className="tab_btn">
-                                      <img
-                                        src="http://cdn.home-designing.com/wp-content/uploads/2009/06/bedroom-with-bay-window.jpg"
-                                        alt=""
-                                        className="img-fluid"
-                                      />
-                                  </div>
-                                </button>
-                                <button
-                                  className="nav-link col-3 col-lg-6"
-                                  id="pic2-tab"
-                                  data-bs-toggle="pill"
-                                  data-bs-target="#pic2"
-                                  type="button"
-                                  role="tab"
-                                  aria-controls="pic2"
-                                  aria-selected="false"
-                                >
-                                    <div className="tab_btn">
-                                      <img
-                                        src="http://cdn.home-designing.com/wp-content/uploads/2009/06/bedroom-with-bay-window.jpg"
-                                        alt=""
-                                        className="img-fluid"
-                                      />
-                                  </div>
-                                </button>
-                                <button
-                                  className="nav-link col-3 col-lg-6"
-                                  id="pic2-tab"
-                                  data-bs-toggle="pill"
-                                  data-bs-target="#pic2"
-                                  type="button"
-                                  role="tab"
-                                  aria-controls="pic2"
-                                  aria-selected="false"
-                                >
-                                    <div className="tab_btn">
-                                      <img
-                                        src="http://cdn.home-designing.com/wp-content/uploads/2009/06/bedroom-with-bay-window.jpg"
-                                        alt=""
-                                        className="img-fluid"
-                                      />
                                   </div>
                                 </button>
                                 <button

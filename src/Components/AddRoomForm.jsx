@@ -13,7 +13,7 @@ const AddRoomForm=()=>{
                     <div className="row">
                     <div className="col-md-4 overflow-hidden">
                     <div className="" >
-                    <div className="uploadMainPhoto shadow-lg mx-auto">
+                    <div className="uploadMainPhoto shadow-lg mx-auto border-top">
                         <img src={initialmage} alt="" />
                     </div>
                     <div className="upload_photo" >
@@ -165,7 +165,7 @@ const AddRoomForm=()=>{
                        </div>
                         </div>
                         </div>
-                        <div className="row mt-2">
+                        <div className="row mt-2 align-items-center">
                                      <div className="col-3 col-md-2 px-0 mx-0 px-lg-0 mx-lg-0 mb-2 mb-lg-0"><label htmlFor="room_status"><i className="fas fa-toggle-on"></i> Status :</label>
                                          </div>
                                      <div className="col-9 col-md-10 padding_of_status_addroom">
@@ -195,7 +195,7 @@ const AddRoomForm=()=>{
                                   <label htmlFor="owner_name"><i className="fas fa-user"></i> Name :</label>
                               </div>
                               <div className="col-9 col-md-8">
-                                  <input type="text" id="owner_name" className="form-control text-center fw-bold px-0"  placeholder="Enter Benifial Name" style={{fontSize:"12px"}}/>
+                                  <input type="text" id="owner_name" className="form-control text-center fw-bold px-0"  placeholder="Enter Owner Name" style={{fontSize:"12px"}}/>
                               </div>
                               </div>
                               </div>
@@ -205,7 +205,7 @@ const AddRoomForm=()=>{
                                   <label htmlFor="owner_contact"><i className="fas fa-phone-volume"></i> Contact :</label>
                               </div>
                               <div className="col-9 col-md-8">
-                                  <input type="text" id="owner_contact" className="form-control text-center fw-bold px-0" placeholder="Enter Benifial Number" style={{fontSize:"12px"}}/>
+                                  <input type="text" id="owner_contact" className="form-control text-center fw-bold px-0" placeholder="Enter Owner Number" style={{fontSize:"12px"}}/>
                               </div>
                               </div>
                               </div>

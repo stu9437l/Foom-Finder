@@ -7,7 +7,7 @@ const LoginForm = () => {
     }
   return (
     <>
-      <div className="container margin_top_log_form" >
+      <div className="container margin_top_log_form" style={{marginBottom:"45px"}}>
         <div className="row ">
           <div className="col-lg-8 mx-auto ">
             <div

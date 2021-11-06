@@ -9,7 +9,7 @@ function Register() {
     
   return (
     <>
-      <div className="container margin_top_register_form">
+      <div className="container margin_top_register_form" style={{marginBottom:"45px"}}>
         <div className="row ">
           <div className="col-lg-8 mx-auto " >
             <div className="register_login_div shadow-lg rounded-3 padding_log_register_form">

@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import { NavLink } from "react-router-dom";
+import Logo from "./LOGO.png"
 const Navbar = () => {
   const [Adnav_menu, setAdnav_menu] = useState("fas fa-bars");
   // const [light, setlight] = useState("light")
@@ -16,9 +17,11 @@ const Navbar = () => {
   }
   return (
     <>
-<nav className="navbar navbar-expand-lg navbar-light fixed-top shadow-lg">
+<nav className="navbar navbar-expand-lg navbar-light sticky-top shadow-lg">
   <div className="container">
-    <NavLink className="navbar-brand" to="/">Company Logo</NavLink>
+    <NavLink className="navbar-brand" to="/">
+      <img src={Logo} alt="" className="img-fluid"/>
+    </NavLink>
     <button className={`navbar-toggler shadow-lg bg-light`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={handleMenubtn}>
     <i className={`${Adnav_menu}`}></i>
     </button>
