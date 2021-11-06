@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Foom-Finder/static/css/main.be046e70.chunk.css",
+    "main.js": "/Foom-Finder/static/js/main.ae636015.chunk.js",
+    "main.js.map": "/Foom-Finder/static/js/main.ae636015.chunk.js.map",
+    "runtime-main.js": "/Foom-Finder/static/js/runtime-main.1f2da9e6.js",
+    "runtime-main.js.map": "/Foom-Finder/static/js/runtime-main.1f2da9e6.js.map",
+    "static/js/2.2eb8bfa8.chunk.js": "/Foom-Finder/static/js/2.2eb8bfa8.chunk.js",
+    "static/js/2.2eb8bfa8.chunk.js.map": "/Foom-Finder/static/js/2.2eb8bfa8.chunk.js.map",
+    "index.html": "/Foom-Finder/index.html",
+    "static/css/main.be046e70.chunk.css.map": "/Foom-Finder/static/css/main.be046e70.chunk.css.map",
+    "static/js/2.2eb8bfa8.chunk.js.LICENSE.txt": "/Foom-Finder/static/js/2.2eb8bfa8.chunk.js.LICENSE.txt",
+    "static/media/upload_main_room.96fad0b7.jpg": "/Foom-Finder/static/media/upload_main_room.96fad0b7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f2da9e6.js",
+    "static/js/2.2eb8bfa8.chunk.js",
+    "static/css/main.be046e70.chunk.css",
+    "static/js/main.ae636015.chunk.js"
+  ]
+}
